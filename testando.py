@@ -60,9 +60,31 @@ print(nome.title())
 
 
 #input faz o usuario respondere alguma coisa
-email = input("Escreva seu email: ")
-nome = input("Escreva seu nome: ")
+#email = input("Escreva seu email: ")
+#nome = input("Escreva seu nome: ")
 
 print(nome, email)
 
 print(f"{nome}, verifique seu email: {email} que enviamos")
+
+
+#listas no python
+vendas = (100, 45, 266, 2000)
+ # sum = somar tudo
+total = sum(vendas)
+print(total)
+
+#Para saber o maoir e menor numero
+#max e min
+print(max(vendas))
+print(min(vendas))
+
+#procurar produtos
+produtos_lojas = ["iphone", "geladeira", "placa de video"]
+
+#pesquisa do cliente
+produtos_procurado = input("Pesquise o produto: ")
+#deixar tudo minuiculo
+produtos_procurado = produtos_procurado.lower()
+
+print(produtos_procurado in produtos_lojas)
