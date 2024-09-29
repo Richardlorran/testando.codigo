@@ -87,4 +87,10 @@ produtos_procurado = input("Pesquise o produto: ")
 #deixar tudo minuiculo
 produtos_procurado = produtos_procurado.lower()
 
+if produtos_procurado in produtos_lojas:
+    print("temos esse produto")
+
+else:
+    print("nao temos esse produto")
+
 print(produtos_procurado in produtos_lojas)
